@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2020",
-    "module": "commonjs",
+    "module": "es2020",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -17,7 +17,7 @@
         "src/*"
       ],
       "@components/*": [
-        "src/components/*"
+        "src/components/*",
       ]
     }
   },
